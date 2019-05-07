@@ -6,8 +6,6 @@ Altered some files to use different datasets.
 
 "python TrainNeuralNetwork.py" to train the data and then test it and output accuracy.
 
-Labeled images to be placed in the data/presplit/__label__ folders ie data/presplit/male and data/presplit/female
-
 Dataset for faces can be acquired here: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 Relevant paper: @inproceedings{liu2015faceattributes,
  	author = {Ziwei Liu, Ping Luo, Xiaogang Wang, and Xiaoou Tang},
@@ -16,5 +14,7 @@ Relevant paper: @inproceedings{liu2015faceattributes,
  	month = December,
  	year = {2015} 
   }
+
+200~ labelled male/female faces in real image / contour directories (Copy and paste the presplit directory directly into folder inside ImageClassificationNN/ImageClassificationNN/data
 
 PhotoSketch (see michael's repo) used to generate contour images of the face dataset. 
