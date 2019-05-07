@@ -16,5 +16,6 @@ Relevant paper: @inproceedings{liu2015faceattributes,
   }
 
 200~ labelled male/female faces in real image / contour directories (Copy and paste the presplit directory directly into folder inside ImageClassificationNN/ImageClassificationNN/data
+https://drive.google.com/open?id=11Mi2Xio6v-OrLDbpsnGVO1rLV0bezaaz
 
 PhotoSketch (see michael's repo) used to generate contour images of the face dataset. 
