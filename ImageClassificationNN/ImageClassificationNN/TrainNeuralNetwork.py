@@ -94,7 +94,7 @@ test_set = train_datagen.flow_from_directory(
 
 print('Training Neural Network')
 
-es = EarlyStopping(monitor='val_acc', mode='auto', verbose=1, restore_best_weights=True, patience=10)
+#es = EarlyStopping(monitor='val_acc', mode='auto', verbose=1, restore_best_weights=True, patience=10)
 
 base_history = classifier.fit_generator(
     training_set,
@@ -104,7 +104,6 @@ base_history = classifier.fit_generator(
     validation_steps=800,
     workers=7,
     max_queue_size=100,
-    callbacks=[es],
     )
 
 eval_metric(classifier, base_history, 'loss')
